@@ -1,5 +1,5 @@
 type HangmanWordProps = {
-  guessedLetters: string;
+  guessedLetters: string[];
   wordToGuess: string;
   reveal?: boolean;
 };
